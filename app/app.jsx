@@ -8,6 +8,8 @@ import Examples from 'Examples';
 
 require('style-loader!css-loader!foundation-sites/dist/css/foundation.min.css');
 
+require('style-loader!css-loader!sass-loader!applicationStyles');
+
 $(document).foundation();
 
 ReactDOM.render(
