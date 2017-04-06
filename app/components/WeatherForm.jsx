@@ -19,7 +19,6 @@ class WeatherForm extends React.Component {
     render() {
         return (
             <div>
-                <h3>WeatherForm component</h3>
                 <form onSubmit={this.onFormSubmit.bind(this)}>
                     <div>
                         <input type="text" placeholder="Enter city name" ref="location"/>

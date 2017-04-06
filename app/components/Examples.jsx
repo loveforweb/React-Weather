@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link, IndexLink} from 'react-router';
 
 class Examples extends React.Component {
     constructor(props) {
@@ -8,7 +9,19 @@ class Examples extends React.Component {
     render() {
         return (
             <div>
-                <h3>Examples</h3>
+                <h1 className="text-center">Examples</h1>
+                <p>Here are a few examples to try</p>
+                <ol>
+                    <li>
+                        <Link to="/?location=Birmingham">Birmingham</Link>
+                    </li>
+                    <li>
+                        <Link to="/?location=Beford">Bedford</Link>
+                    </li>
+                    <li>
+                        <Link to="/?location=Florida">Florida</Link>
+                    </li>
+                </ol>
             </div>
         )
     }
