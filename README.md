@@ -1,2 +1,2 @@
-# React Weather Applicationgit status
+# React Weather Application
 React Weather Application
