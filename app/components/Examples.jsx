@@ -8,7 +8,7 @@ class Examples extends React.Component {
     render() {
         return (
             <div>
-                <h3>Examples component</h3>
+                <h3>Examples</h3>
             </div>
         )
     }
